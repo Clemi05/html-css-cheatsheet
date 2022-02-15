@@ -10,3 +10,5 @@ In this project, you’ll be building your own reference cheat sheet to help you
 
 For this small project I created my own cheat sheet on CSS Selectors, using the book HTML & CSS - Design and Build websites by Jon Duckett.
 For this project I used HTML and CSS.
+
+- Live Site URL: [Click here to see the live site](https://clemi05.github.io/html-css-cheatsheet/)
