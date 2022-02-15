@@ -1,0 +1,65 @@
+/* Fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* General CSS */
+
+* {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  color: #C4A8FF;
+  font-weight: 700;
+}
+
+/* Table */
+table {
+  border: 2px solid #C4A8FF;
+  width: 90%;
+  margin: 0 auto;
+}
+
+thead>tr>td {
+  background-color: #C4A8FF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 10px;
+}
+
+td {
+  border-top: 1px dotted #C4A8FF;
+  line-height: 30px;
+}
+
+table span {
+  color: #C4A8FF;
+  font-weight: 700;
+}
+
+code {
+  font-family: monospace;
+  background-color: #fff;
+  color: #000;
+  font-style: italic;
+}
+
+.title-selector {
+  color: #C4A8FF;
+  font-weight: 700;
+  text-transform: uppercase;
+}

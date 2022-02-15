@@ -9,82 +9,84 @@
 </head>
 <body>
   <main>
-    <h1>CSS Selectors</h1>
-    <h2>General Selectors</h2>
-    <table>
-      <thead>
-        <tr>
-          <td>Selector</td>
-          <td>Meaning</td>
-          <td>Example</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Universal Selector</td>
-          <td>Applies to all elements in the document</td>
-          <td><span>* {}</span> Targets all elements on the page</td>
-        </tr>
-        <tr>
-          <td>Type Selector</td>
-          <td>Matches element names</td>
-          <td><span>h1, h2, h3 {}</span> Targets the <code>&lt;h1&gt, &lt;h2&gt and &lt;h3&gt</code> elements</td>
-        </tr>
-        <tr>
-          <td>Class Selector</td>
-          <td>Matches an element whose class attribute has a value that matches the one specified after the period (or full stop) symbol</td>
-          <td>
-            <span>.note {}</span>
-            Targets any element whose class attribute has a value of note
-            <span>p.note {}</span>
-            Targets only <code>&lt;p&gt</code> elements
-            whose class attribute has a
-            value of note
-          </td>
-        </tr>
-        <tr>
-          <td>Id Selector</td>
-          <td>Matches an element whose id attribute has a value that matches the one specified after the pound or hash symbol</td>
-          <td><span>#introduction {}</span> Targets the element whose id attribute has a value of introduction</td>
-        </tr>
-        <tr>
-          <td>Child Selector</td>
-          <td>Matches an element that is a direct child of another</td>
-          <td>
-            <span>li>a {}</span>
-            Targets any <code>&lt;a&gt</code> elements that are children of an <code>&lt;li&gt</code> element
-            (but not other <code>&lt;a&gt</code> elements in the page)
-          </td>
-        </tr>
-        <tr>
-          <td>Descendant Selector</td>
-          <td>Matches an element that is a descendent of another specified element (not just a direct child of that element)</td>
-          <td>
-            <span>p a {}</span>
-            Targets any <code>&lt;a&gt</code> elements that sit inside a <code>&lt;p&gt</code> element,
-            even if there are other elements nested between them
-          </td>
-        </tr>
-        <tr>
-          <td>Adjacent Sibling Selector</td>
-          <td>Matches an element that is the next sibling of another</td>
-          <td>
-            <span>h1+p {}</span>
-            Targets the first <code>&lt;p&gt</code> element after any <code>&lt;h1&gt</code> element
-            (but not other <code>&lt;p&gt</code> elements)
-          </td>
-        </tr>
-        <tr>
-          <td>General Sibling Selector</td>
-          <td>Matches an element that is a sibling of another, although it does not have to be the directly preceding element</td>
-          <td>
-            <span>h1~p {}</span>
-            If you had two <code>&lt;p&gt</code> elements that are siblings of an <code>&lt;h1&gt</code> element this rule would apply to both
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Attributes Selectors</h2>
+    <section>
+      <h1>CSS Selectors</h1>
+      <h2>General Selectors</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Selector</td>
+            <td>Meaning</td>
+            <td>Example</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="title-selector">Universal Selector</td>
+            <td>Applies to all elements in the document</td>
+            <td><span>* {}</span><br>Targets all elements on the page</td>
+          </tr>
+          <tr>
+            <td class="title-selector">Type Selector</td>
+            <td>Matches element names</td>
+            <td><span>h1, h2, h3 {}</span><br>Targets the <code>&lt;h1&gt, &lt;h2&gt and &lt;h3&gt</code> elements</td>
+          </tr>
+          <tr>
+            <td class="title-selector">Class Selector</td>
+            <td>Matches an element whose class attribute has a value that matches the one specified after the period (or full stop) symbol</td>
+            <td>
+              <span>.note {}</span><br>
+              Targets any element whose class attribute has a value of note
+              <span>p.note {}</span><br>
+              Targets only <code>&lt;p&gt</code> elements whose class attribute has a value of note
+            </td>
+          </tr>
+          <tr>
+            <td class="title-selector">Id Selector</td>
+            <td>Matches an element whose id attribute has a value that matches the one specified after the pound or hash symbol</td>
+            <td><span>#introduction {}</span><br>Targets the element whose id attribute has a value of introduction</td>
+          </tr>
+          <tr>
+            <td class="title-selector">Child Selector</td>
+            <td>Matches an element that is a direct child of another</td>
+            <td>
+              <span>li>a {}</span><br>
+              Targets any <code>&lt;a&gt</code> elements that are children of an <code>&lt;li&gt</code> element
+              (but not other <code>&lt;a&gt</code> elements in the page)
+            </td>
+          </tr>
+          <tr>
+            <td class="title-selector">Descendant Selector</td>
+            <td>Matches an element that is a descendent of another specified element (not just a direct child of that element)</td>
+            <td>
+              <span>p a {}</span><br>
+              Targets any <code>&lt;a&gt</code> elements that sit inside a <code>&lt;p&gt</code> element,
+              even if there are other elements nested between them
+            </td>
+          </tr>
+          <tr>
+            <td class="title-selector">Adjacent Sibling Selector</td>
+            <td>Matches an element that is the next sibling of another</td>
+            <td>
+              <span>h1+p {}</span><br>
+              Targets the first <code>&lt;p&gt</code> element after any <code>&lt;h1&gt</code> element
+              (but not other <code>&lt;p&gt</code> elements)
+            </td>
+          </tr>
+          <tr>
+            <td class="title-selector">General Sibling Selector</td>
+            <td>Matches an element that is a sibling of another, although it does not have to be the directly preceding element</td>
+            <td>
+              <span>h1~p {}</span><br>
+              If you had two <code>&lt;p&gt</code> elements that are siblings of an <code>&lt;h1&gt</code> element this rule would apply to both
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+    <h2>Attribute Selectors</h2>
+
   </main>
 
 </body>
