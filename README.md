@@ -8,5 +8,5 @@ In this project, you’ll be building your own reference cheat sheet to help you
 
 ## My notes
 
-For this small project I created my own cheat sheet on CSS Selectors, using the book HTML & CSS design and buil websites by Jon Duckett.
+For this small project I created my own cheat sheet on CSS Selectors, using the book HTML & CSS - Design and Build websites by Jon Duckett.
 For this project I used HTML and CSS.
