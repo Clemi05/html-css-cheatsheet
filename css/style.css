@@ -16,12 +16,14 @@ body {
 h1 {
   text-align: center;
   font-weight: 700;
+  font-size: 42px;
 }
 
 h2 {
   text-align: center;
   color: #C4A8FF;
   font-weight: 700;
+  font-size: 30px;
   padding-top: 30px;
 }
 
