@@ -23,13 +23,14 @@ h2 {
   text-align: center;
   color: #C4A8FF;
   font-weight: 700;
+  padding-top: 30px;
 }
 
 /* Table */
 table {
   border: 2px solid #C4A8FF;
   width: 90%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 thead>tr>td {
